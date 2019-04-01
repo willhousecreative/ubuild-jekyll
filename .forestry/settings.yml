@@ -18,11 +18,11 @@ sections:
   match: "*.md"
   exclude: "*README.md"
   new_doc_ext: md
-upload_dir: uploads
-public_path: "/uploads"
+upload_dir: http://res.cloudinary.com/willhouse/image/upload
+public_path: ''
 front_matter_path: ''
-use_front_matter_path: false
-file_template: ":year:/:month:/:day:/:filename:"
+use_front_matter_path: 
+file_template: ":filename:"
 build:
   preview_command: bundle exec jekyll build --drafts --unpublished --future -d _site
   publish_command: bundle exec jekyll build -d _site
