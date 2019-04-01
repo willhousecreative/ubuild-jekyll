@@ -18,7 +18,7 @@ sections:
   match: "*.md"
   exclude: "*README.md"
   new_doc_ext: md
-upload_dir: ''
+upload_dir: https://res.cloudinary.com/willhouse/image/upload
 public_path: ''
 front_matter_path: ''
 use_front_matter_path: 
